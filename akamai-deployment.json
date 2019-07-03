@@ -1,0 +1,26 @@
+{
+    "dev": {
+      "stage": {
+        "NETSTORAGE_CP_CODE": "65665",
+        "NETSTORAGE_LOCATION": "/DBx/testqa/my",
+        "BASE_HOST": "https://testqa.rockwellautomation.com/my"
+      },
+      "prod": {
+        "NETSTORAGE_CP_CODE": "61845",
+        "NETSTORAGE_LOCATION": "/DBx/test/my",
+        "BASE_HOST": "https://test.rockwellautomation.com/my"
+      }
+    },
+    "prod": {
+      "stage": {
+        "NETSTORAGE_CP_CODE": "65665",
+        "NETSTORAGE_LOCATION": "/DBx/qa/my",
+        "BASE_HOST": "https://raqa.rockwellautomation.com/my"
+      },
+      "prod": {
+        "NETSTORAGE_CP_CODE": "61845",
+        "NETSTORAGE_LOCATION": "/DBx/www/my",
+        "BASE_HOST": "https://www.rockwellautomation.com/my"
+      }
+    }
+  }
